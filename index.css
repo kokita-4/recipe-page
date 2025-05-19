@@ -1,0 +1,133 @@
+@font-face {
+  font-family: 'Outfit';
+  src: url('assets/fonts/outfit/static/Outfit-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+body {
+     font-family: 'Outfit', sans-serif;
+      background-color:rgba(183, 76, 23, 0.288);
+      margin: 30px;
+      display: flex;
+      justify-content: center; 
+      align-items: center; 
+}
+.center-box{
+    background-color : white;
+    border-radius:10px ;
+    border: 1px solid #ccc;
+    margin-left:25% ;
+    margin-right: 25%;
+    padding: 40px;
+      max-width: 700px;
+  width: 100%;
+  margin: auto;
+}
+  
+.image-recipe img{
+    display: block;
+    margin: auto;
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px;
+    
+}
+.titre-recipe h1{
+    color: black;
+    font-weight: 50px;
+    font-size: 35px;
+}
+.description-recipe p{
+    color: black;
+    font-weight: 10px;
+    font-size: 15px;
+}
+.description-recipe{
+    padding-left: 5px;
+    padding-right: 15px;
+    margin: 10px;
+}
+.preparation-time{
+    padding: 10px;
+    margin: 15px;
+    background-color: rgba(239, 154, 182, 0.103);
+    border-radius: 10px;
+}
+.preparation-time h2{
+    color: rgb(117, 41, 4);
+    font-weight: 25;
+    font-size: 30px;
+}
+.preparation-time ul li{
+    color: rgb(0, 0, 0);
+    font-weight: 1;
+    font-size: 15px;
+    list-style-type: circle;  
+}
+.Ingredients h2{
+    color: rgb(117, 41, 4);
+    font-weight: 25;
+    font-size: 30px;
+}
+.Ingredients ul li{
+    color: rgb(0, 0, 0);
+    font-weight: 1;
+    font-size: 15px;
+    list-style-type: circle;  
+    list-style-position: inside;
+
+}
+.instructions h2{
+    color: rgb(117, 41, 4);
+    font-weight: 25;
+    font-size: 30px;
+}
+.instructions ol li{
+    color: rgb(0, 0, 0);
+    font-weight: 1;
+    font-size: 15px;
+    list-style-type: decimal; 
+    
+}
+.instructions ol li::marker {
+      color: rgb(117, 41, 4);
+}
+.nutrition h1{
+     color: rgb(117, 41, 4);
+    font-weight: 25px;
+    font-size: 30px;
+}
+.nutrition p {
+    color: rgb(0, 0, 0);
+    font-weight: 1;
+    font-size: 15px;
+  }
+  .nutrition table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  .nutrition th, td {
+    padding: 3px;
+    margin: 3px;
+    color: rgb(117, 41, 4);
+    border-top: 1px solid rgba(0, 0, 0, 0);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+    border-left: none;
+    border-right: none;
+    padding: 8px;
+    text-align: left;
+  }
+  .attribution{
+        color: rgb(0, 0, 0);
+    font-weight: 1;
+    font-size: 15px;
+    padding: 5px;
+  }
+   .attribution a{
+   text-decoration: none;
+  }
+     .attribution a:hover{
+   text-decoration: none;
+   color :rgb(117, 41, 4);
+  }
